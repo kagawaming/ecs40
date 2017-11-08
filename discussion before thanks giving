@@ -1,0 +1,33 @@
+op 1  and op 2 (overload) define >=
+
+impl Operator {
+fn p (&self)
+match self{
+Add | Sub => 0
+Mul | Div => 1
+}
+}
+
+hw4
+how to create an empty tree
+   o
+  /\
+o    o
+/\
+o o
+
+struct Tree {
+root:Node
+}
+
+A node look like
+struct Node <T> {
+key:T
+L:Option<>
+R:Option<>
+}
+
+struct Tree<T> {
+root: Option<Box<Node<T>>>
+Option<Box<Node<T>>>
+}

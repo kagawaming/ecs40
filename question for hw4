@@ -1,0 +1,8 @@
+v.push(self.key) //do i need to use ref or deref?
+
+struct tree, and struct node //do I need both? and when I use self, does it means tree or node
+
+k.preorder // can I use this? where k is self.L, and when to use k.preorder,
+when to use preorder(k), and when to use k.preorder(n) 63
+
+when I want to return v<&T>, do I write return v which have &T or &T which have T? 67

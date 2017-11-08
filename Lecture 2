@@ -1,0 +1,28 @@
+Topic
+1. variable binding
+2. functions
+3. vectors
+4. if
+5. loops
+
+immutable
+-cannot be changed
+
+mutable
+-can be changed
+
+Let x=5,
+x=10,  (wrong)
+
+Let mut x=5
+x=10   (right)
+
+Let (x,y)= (2,3)
+Let x : i32,
+    x : i8
+    X : i64
+
+Let x : i32
+println! ("x is {}", x),
+
+scope

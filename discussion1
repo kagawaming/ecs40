@@ -1,0 +1,12 @@
+git init
+git status
+git add
+git commit
+git show
+git -m 'message'
+git log
+git remote add origin <link>
+git push
+git clone <link> <destination>
+git pull
+git revert
